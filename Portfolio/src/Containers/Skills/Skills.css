@@ -1,0 +1,27 @@
+.Skills{
+    width: 100%;
+    height: 100vh;
+    background-color: #010101;
+    color: #fffada;
+    justify-content: space-between;
+    padding: 0px 100px ;
+}
+
+.Index2{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    transition: .5s;
+    text-align: center ;
+}
+
+.Index2 div h1 {
+    font-size: 10rem;
+    -webkit-text-stroke: 1px #fffada;
+	-webkit-text-fill-color: transparent;
+}
+
+.Index2 div h3{
+    transform: translateY(-180%);
+    font-size: 4rem;
+}

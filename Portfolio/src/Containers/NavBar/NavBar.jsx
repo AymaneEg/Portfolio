@@ -9,13 +9,13 @@ export default function NavBar() {
         
         <p>El Guanouni <span>Aymane</span> </p>
         <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>About <p>01</p></li>
+            <li>Skills <p>02</p></li>
+            <li>Projects <p>03</p></li>
+            <li>Contact <p>04</p></li>
         </ul>
     </div>
-    <FastContact/>
+    
     </>
   )
 }

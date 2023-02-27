@@ -36,6 +36,21 @@
     transform: scale(1.2);
 } 
 
+.NavBar ul li p{
+     opacity: .2;
+     font-size: 3rem;
+     position: absolute;
+     opacity: 0.2;
+     transform: translate( 18% , -70%);
+     -webkit-text-stroke: 1px black;
+     -webkit-text-fill-color: transparent;
+
+}  
+
+.NavBar ul li:hover + .NavBar ul li p  {
+     opacity: .2;
+}
+
 
 /* .NavBar ul li::after {
     content: " ";

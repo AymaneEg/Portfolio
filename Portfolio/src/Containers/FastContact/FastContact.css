@@ -1,5 +1,5 @@
 .FastContact {
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 20vh;
     background-color: #fffada;
@@ -56,8 +56,8 @@ justify-content: center;
     z-index: 0;
     margin-left: 5px ;
     -webkit-text-stroke: 1px #fffada;
-    opacity: .2;
 	-webkit-text-fill-color: transparent;
+    opacity: .2;
     bottom: 10px;
     right: 10px;
 }

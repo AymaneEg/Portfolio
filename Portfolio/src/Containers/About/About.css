@@ -1,0 +1,114 @@
+.About{
+    width: 100%;
+    height: 80vh;
+    background-color: #010101;
+    color: #fffada;
+    padding:  10px 100px;
+    display: flex;
+}
+
+.About img {
+    width:  25%;
+    opacity: 1;
+}
+
+.Index{
+    transition: .5s;
+    opacity: 0.2 ;
+    transform: translateY(-5%);
+}
+
+.Index.Active{
+     opacity: 1;
+     transform: translateY(0%);
+}
+
+.Index h1 {
+    font-size: 10rem;
+    -webkit-text-stroke: 1px #fffada;
+	-webkit-text-fill-color: transparent;
+}
+
+.Index h3{
+    transform: translateY(-180%);
+    font-size: 4rem;
+}
+.SocialClone{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.post {
+    width: 60%;
+    height: 65vh;
+    background-color: #fffada;
+    border-radius: 20px;
+}
+
+.post div {
+  
+  background-image: url('./Images/Image1.jpeg') ;
+  background-color: #fffada;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  transition: .5s;
+}
+.ActiveDiv{
+    transform: translate(5%, 5%);
+
+}
+
+.AboutDescription{
+    padding: 30px 0px;
+}
+.AboutDescription h1{
+    font-size: 4rem;
+    -webkit-text-stroke: 1px #fffada;
+	-webkit-text-fill-color: transparent;
+}
+.AboutDescription div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutDescription div ul {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    transition: 1.2s;
+   
+}
+
+
+.AboutDescription div ul li{
+    list-style-type: none;
+     height: 7vh;
+    margin-top: 10px;
+    border-bottom: 1px solid #fffada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    border-radius: 5px;
+    
+}
+
+.AboutDescription div ul li:hover{
+    background-color: #fffada;  
+    color: #010101;
+    font-weight: bold;
+    transform: scale(1.1);
+} 
+.ActiveLi{
+    background-color: #fffada;  
+    color: #010101;
+    font-weight: bold;
+    transform: scale(1.1);   
+}
