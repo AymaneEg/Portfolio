@@ -6,6 +6,7 @@ import NavBar from './Containers/NavBar/NavBar'
 import FastContact from './Containers/FastContact/FastContact'
 import About from './Containers/About/About'
 import Skills from './Containers/Skills/Skills'
+import Projects from './Containers/Projects/Projects'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
        <FastContact/>
        <About/>
        <Skills/>
+       <Projects/>
     </div>
   )
 }
