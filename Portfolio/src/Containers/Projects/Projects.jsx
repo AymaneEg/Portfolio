@@ -15,13 +15,23 @@ export default function Projects() {
 
       <div className='ProjectsDiv'>
           <div className='Project1'>
-             
+             <p>#1 SmartHouse</p>
+             <p>An e-com web site for selling smart house accesories </p>
+             <div>
+
+             </div>
           </div>
           <div className='Project2'>
-             
+             <p>#1 SmartHouse</p>
+             <p>An e-com web site for selling smart house accesories </p>
+             <div>
+              
+             </div>
           </div>
           <div className='Project3'>
-             
+          <p>#1 SmartHouse</p>
+             <p>An e-com web site for selling smart house accesories </p>
+             <div> </div>
           </div>
       </div>
       
